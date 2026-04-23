@@ -1,0 +1,160 @@
+:root{
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+header{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(175, 218, 255);
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+ 
+.headbox{
+    background-color: rgb(74, 128, 172);
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    width: 100%;
+}
+ 
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.currentmenu{
+    font-weight:bold;
+    color: azure;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    text-shadow: 10px;
+}
+ 
+.othermenu{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    text-shadow: 10px;
+}
+ 
+body{
+    margin: 0;
+    padding: 0;
+}
+ 
+img#logo{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+}
+ 
+.productimg{
+    height:100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+ 
+.productbox{
+    background-color: #9ccbd1;
+    height: 300x;
+    width: 200px;
+    padding:10px;
+    margin: 30px;
+    position: relative;
+}
+ 
+.productcontent{
+    display: flex;
+    justify-content: center;
+}
+ 
+p#opening{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(9, 41, 66);
+}
+ 
+.destinasibtn{
+    background:rgb(34, 121, 159);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+}
+ 
+h1#info{
+    color: #53757a;
+    text-align: center;
+}
+
+p#info{
+    color: #53757a;
+    text-align: center;
+}
+p#paket{
+    text-align: center;
+
+}
+.penjelas{
+    font-size: 18px;
+    text-align: center;
+}
+ 
+.imgdes{
+    width: 450px;
+    height: 450px;
+    justify-content: center;
+}
+ 
+.videosample{
+    justify-content: center;
+ 
+}
+ 
+button{
+    background: rgb(60, 96, 138);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateX(33%);
+}
+ 
+.imgpaket{
+width:100%;
+height:200px;
+}
+ 
+footer{
+    background-color: rgb(74, 128, 172);
+    width: 100%;
+    height:30px;
+}
+ 
+h1#tentang{
+    color: #53757a;
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.tentang{
+    text-align: center;
+    font-size: 20px;
+}
